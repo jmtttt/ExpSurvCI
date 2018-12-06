@@ -1,0 +1,61 @@
+## ----------------------------------
+## README
+## ----------------------------------
+## This repository contains all stuff for
+## master thesis by Johann Mattutat
+##
+## Filenames in this file will be ignored by git.
+## Example:
+## *	    - git ignores all files
+## *.aux    - git ignores all files with extension .aux
+## foo.bar  - git ignores file foo.bar
+## !foo.bar - git ignores file foo.bar NOT
+
+*~
+*#
+*auto/
+*cache/
+.#*
+.*.sw?
+*.ZILESAVE
+*.nav
+*.snm
+*.aux
+*.glo
+*.idx
+*.log
+*.toc
+*.ist
+*.acn
+*.acr
+*.alg
+*.bbl
+*.blg
+*.dvi
+*.glg
+*.gls
+*.ilg
+*.ind
+*.lof
+*.lot
+*.maf
+*.mtc
+*.mtc1
+*.out
+*.pdf
+*.lb
+*.fls
+*.fdb_latexmk
+*.synctex.gz*
+*.vrb
+*.backup
+*blx.bib
+*.run.xml
+
+
+*.Rapp.history
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store

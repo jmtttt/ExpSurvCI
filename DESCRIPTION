@@ -1,0 +1,27 @@
+Package: ExpSurvCI
+Type: Package
+Title: Confidence Intervals and Sample Size Calculations for the Ratio of Parameters of Expinentially Distributed, Right Censored Data
+Version: 0.4.1
+Author: Johann Mattutat
+Maintainer: Johann Mattutat <johann.mattutat@student.uni-luebeck.de>
+Description: This package implements various confidence intervals for the ratio of parameters of exponentially distributed (right censored) survival data.
+    Supported are parametric (Wald, Score (2*), Gradient) statistics and computational (coxph, survreg) confidence intervals.
+    Furthermore, sample size calculations based on theese parametric approaches and based on the Schoenfeld formula are implemented.
+    The implemented formulas are derived in the Author's master thesis.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Depends:
+    R (>= 3.2.1),
+Imports:
+    ggplot2,
+    survival,
+    checkmate,
+    stats,
+    shiny
+Suggests:
+    tidyverse,
+    knitr,
+    roxygen2,
+    devtools
